@@ -1,0 +1,97 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.text-danger {
+    font-weight: bold;
+}
+
+.nav-link {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(52, 58, 64, 0.1);
+    color: #007bff;
+    border-radius: 15px; 
+}
+
+.nav-link.active {
+    background-color: #007bff;
+    color: white !important;
+    border-radius: 15px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+@media (max-width: 991px) {
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .nav-link{
+       padding: 10px;
+    }
+}
